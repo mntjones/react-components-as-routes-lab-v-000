@@ -5,7 +5,7 @@ const Movies = () => {
   return (
     <div>
       <h1>Movies Page</h1>
-      { movies.map ((movie, index))
+      { movies.map ((movie, i))
     </div>
   );
 };
