@@ -37,6 +37,7 @@ const NavBar = () => {
           background: 'darkblue'
         }}
       >Actors</NavLink>
+    </ul>
   </div>);
 };
 
