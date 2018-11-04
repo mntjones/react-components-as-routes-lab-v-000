@@ -8,10 +8,6 @@ const NavBar = () => {
         <li><NavLink
           to="/"
           exact
-          style={link}
-          activeStyle={{
-            background: 'darkblue'
-          }}
         >Home</NavLink></li>
         <li><NavLink
           to="/movies"
