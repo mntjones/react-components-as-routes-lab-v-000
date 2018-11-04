@@ -13,7 +13,12 @@ import Movies from '../components/Movies';
 const App = (props) => {
   return (
     <Router>
-      {/*{code here}*/}
+      <React.Fragment>
+        < Navbar />
+        <Route path="/" render={Home} />
+        <Route exact path="/about" render={About} />
+        <Route exact path="/login" render={Login} />
+      </React.Fragment>
     </Router>
   );
 };
