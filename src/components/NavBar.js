@@ -4,8 +4,32 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div>
-      {/*{code here}*/}
-    </div>
+      <NavLink
+        to="/"
+        exact
+        style={link}
+        activeStyle={{
+          background: 'darkblue'
+        }}
+      >Home</NavLink>
+      <NavLink
+        to="/about"
+        exact
+        style={link}
+        activeStyle={{
+          background: 'darkblue'
+        }}
+      >About</NavLink>
+    <NavLink
+      to="/login"
+      exact
+      style={link}
+      activeStyle={{
+        background: 'darkblue'
+      }}
+    >Login</NavLink>
+  </div>
+
   );
 };
 
