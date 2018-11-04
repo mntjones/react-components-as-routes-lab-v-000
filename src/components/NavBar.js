@@ -29,16 +29,14 @@ const NavBar = () => {
         }}
       >Directors</NavLink>
      <NavLink
-      to="/directors"
+      to="/actors"
       exact
       style={link}
       activeStyle={{
         background: 'darkblue'
       }}
-    >Directors</NavLink>
-  </div>
-
-  );
+    >Actors</NavLink>
+  </div>);
 };
 
 export default NavBar;
