@@ -4,7 +4,7 @@ import { directors } from '../data';
 const Directors = () => {
   return (
     <div>
-      <h1>Director's Page</h1>
+      <h1>Directors Page</h1>
       {movies.map((movie, i) => (
         <div key={i}>
           <h3>{movie.title}</h3>
