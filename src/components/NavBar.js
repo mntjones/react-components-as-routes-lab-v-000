@@ -13,7 +13,7 @@ const NavBar = () => {
         }}
       >Home</NavLink>
       <NavLink
-        to="/about"
+        to="/movies"
         exact
         style={link}
         activeStyle={{
