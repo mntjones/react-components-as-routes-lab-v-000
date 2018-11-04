@@ -18,6 +18,6 @@ const Actors = () => {
       ))}
     </div>
   );
-};
+}
 
 export default Actors;
