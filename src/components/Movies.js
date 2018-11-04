@@ -10,7 +10,9 @@ const Movies = () => {
           <h3>{movie.title}</h3>
           <p>Time: {movie.time} </p>
           <p>Genres:</p>
-          
+          <ul>
+            <li>
+          </ul>
         </div>
       })
     </div>
