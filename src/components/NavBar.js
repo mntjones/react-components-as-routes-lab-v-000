@@ -5,38 +5,38 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <ul>
-        <NavLink
+        <li><NavLink
           to="/"
           exact
           style={link}
           activeStyle={{
             background: 'darkblue'
           }}
-        >Home</NavLink>
-        <NavLink
+        >Home</NavLink></li>
+        <li><NavLink
           to="/movies"
           exact
           style={link}
           activeStyle={{
             background: 'darkblue'
           }}
-        >Movies</NavLink>
-        <NavLink
+        >Movies</NavLink></li>
+        <li><NavLink
           to="/directors"
           exact
           style={link}
           activeStyle={{
             background: 'darkblue'
           }}
-        >Directors</NavLink>
-       <NavLink
+        >Directors</NavLink></li>
+       <li><NavLink
         to="/actors"
         exact
         style={link}
         activeStyle={{
           background: 'darkblue'
         }}
-      >Actors</NavLink>
+      >Actors</NavLink></li>
     </ul>
   </div>);
 };
