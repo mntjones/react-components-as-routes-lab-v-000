@@ -9,7 +9,8 @@ const Movies = () => {
         <div key= {i}>
           <h3>{movie.title}</h3>
           <p>Time: {movie.time} </p>
-          <p>Genres: 
+          <p>Genres:</p>
+          
         </div>
       })
     </div>
