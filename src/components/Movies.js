@@ -8,6 +8,7 @@ const Movies = () => {
       { movies.map ((movie, i) => {
         <div key= {i}>
           <h3>{movie.title}</h3>
+          <p>Time: 
         </div>
       })
     </div>
